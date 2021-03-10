@@ -1,0 +1,141 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none !important;
+}
+
+/*------------------------------------ navbar -----------------------------------------*/
+.my-brand{
+    font-size: xxx-large;
+}
+.navbar-brand-first-part{
+    font-weight: bolder;
+    color: black !important;
+}
+.navbar-brand-second-part{
+    color: #3c9fa8;
+}
+.menu-item{
+    padding-left: 2rem;
+}
+.menu-link{
+    text-transform: uppercase;
+    color: black !important;
+    font-weight: bolder;
+    font-size:medium;
+}
+.menu-link:hover{
+    color: #32878f !important;
+}
+/*------------------------------------ carousel -----------------------------------------*/
+.slide-container{
+    
+    background-color: #3c9fa8;
+}
+.slider-content{
+    padding: 3% 0;
+}
+
+
+.my-carousel-caption{
+    left: 15%;
+    bottom: 25%;
+    text-shadow: -1px 1px 0 black,
+    1px 1px 0 black,
+    1px -1px 0 black,
+   -1px -1px 0 black;
+}
+
+.carousel-item-title{
+    font-size: 3vw;
+}
+
+.carousel-item-text{
+    font-size: 1.5vw;
+}
+
+/*------------------------------------ cards -----------------------------------------*/
+.card-container{
+    height: fit-content;
+    background-color: #eeeeee;
+    padding: 5% 0;
+}
+.my-icon{
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #3c9fa8;
+    color: white;
+}
+.titles{
+    text-transform: uppercase;
+    font-size: 21px;
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.card-text{
+    margin-top: 5%;
+}
+
+.my-card-link {
+    
+    color: #3f9ca5;
+    font-size: 16px;
+}
+
+.my-card-link-text{
+    margin-left: 3%;
+}
+
+.card{
+    background-color: #eeeeee !important;
+    border: none;
+}
+
+/*------------------------------------ info & about container -----------------------------------------*/
+.info-container{
+    padding: 2% 0;
+}
+
+.line{
+    background-color:  rgb(230, 230, 230);
+    height: 1px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.download-button-text{
+    font-weight: bold;
+    color: black;
+    font-size: 23px;
+    margin-left: 15px;
+}
+
+.my-download-button{
+    background-color: #43b1bb;
+    padding: 1%;
+    box-shadow: 0px 5px 0px 0px #32878f;
+    margin: 35px auto;
+}
+
+.my-download-button:hover{
+    background-color: #62ced8;
+}
+
+.my-btn{
+    width: 100%;
+}
+/* -----------------------------------------footer------------------------------------------ */
+.footer-links{
+    color: black !important;
+}
+
+.footer-links:hover{
+    color: #32878f !important;
+}
